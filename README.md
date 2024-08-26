@@ -9,9 +9,9 @@ This project is a fully responsive web page built using the Bootstrap framework.
 - **Mobile-Friendly:** Optimized for fast loading and smooth performance on mobile devices.
 
 ## Tech Stack
-- **HTML5**
-- **CSS3**
-- **Bootstrap 4/5**
+- ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) 
+- ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+- ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
 
 ## Installation
 To view or modify this project on your local machine:
@@ -38,8 +38,3 @@ Contributions are welcome! If you'd like to enhance this project, feel free to o
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-### Screenshots
-Here are some screenshots of the web page:
-
-![Desktop View](/Users/daman/Desktop/Screenshot 2024-08-26 at 12.52.10 PM.png)
