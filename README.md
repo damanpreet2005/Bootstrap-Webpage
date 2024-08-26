@@ -34,7 +34,4 @@ Feel free to explore, fork, or clone this repository to understand how to create
 ## Contributing
 Contributions are welcome! If you'd like to enhance this project, feel free to open a pull request.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
 ---
