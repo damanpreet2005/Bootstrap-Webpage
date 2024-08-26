@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport"content="width=device-width,initial-scale=1.0"/>
+        <title>CSSAssignment</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="practice.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Front-end</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                
+                <li class="nav-item">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-primary" type="submit">Search</button>
+                      </form>
+                </li>
+            </div>
+        </div>
+    </nav>
+    <div class="main_box" class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
+      <input type="checkbox" id="check" />
+      <div class="sidebar_menu">
+        <div class="logo">
+          <a href="#">Front-end</a>
+        </div>
+
+        <div class="btn_two">
+          <label for="check" style="color: grey">
+            <i class="fa-solid fa-xmark"></i>
+          </label>
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li>
+              <i class="fa-solid fa-code"></i>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-code"></i>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>
+            </li>
+            <li id="o">
+              <i class="fa-solid fa-code" ></i>
+              <a href="#" >CSS Framework</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-code"></i>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-code"></i>
+              <a href="#">React.js</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-code"></i>
+              <a href="#">Angular.js</a>
+            </li>
+            <li>
+              <i class="fa-regular fa-chat"></i>
+              <a href="#">Feedback</a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="social_media">
+          <ul>
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></i></a>
+            <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <br><br>
+    <div class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-border-subtle rounded-3">
+      <div class="p-3 text-light-text-emphasis bg-primary border border-primary-border-subtle rounded-3" id="head1">
+        <span class="btn_one">
+          <label for="check">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+        </span>
+        <span id="head">CSS Framework</span>
+        <span class="badge text-bg-secondary">Frontend</span>
+        <button type="button" class="btn btn-primary position-relative">
+          <a href="https://www.linkedin.com/in/damanpreet-singh-069b99268" id="Profile">Profile</a>
+          <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+            <span class="visually-hidden">New alerts</span>
+          </span>
+        </button>
+        <button type="button" class="btn btn-primary position-relative">
+          <a href="https://mail.google.com/" id="Profile">Inbox</a>
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            99+
+            <span class="visually-hidden">unread messages</span>
+          </span>
+        </button>
+        
+      </div>
+          
+      <div class="container-lg"> 
+      <h1>Bootstrap<h5><span class="badge text-bg-secondary">New</span></h5></h1>
+      <p id="hide">
+          Bootstrap is a popular front-end framework for developing responsivse and mobile-first websites. It provides a collection of reusable components, such as buttons, forms, navigation bars, and modals, along with a grid system that helps in creating layouts. Bootstrap is built using HTML, CSS, and JavaScript, and it is known for its ease of use and consistent design across different browsers and devices. With Bootstrap, developers can quickly prototype ideas and build complex web applications with less effort, as it takes care of many common web development challenges, such as ensuring a responsive design. The framework also includes a wide range of pre-designed themes and templates, making it a go-to choice for both beginners and experienced developers looking to create visually appealing and functional websites.
+          <br><br><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" class="btn btn-outline-primary">Click here</a>
+      </p>
+      </div>
+    </div>
+    <div class="mainbody">
+        <p>Bootstrap is an open-source framework initially developed by Twitter and released in 2011. It was created to standardize the use of common design elements across the company’s internal tools, and it quickly gained popularity in the web development community due to its flexibility, ease of use, and comprehensive documentation.</p>
+        <br><h3>Key Features of Bootstrap:</h3>
+        <p>1.	Grid System: Bootstrap’s responsive grid system allows you to create complex layouts with rows and columns that adjust automatically to different screen sizes. The grid is based on a 12-column layout, which can be customized for different devices using predefined classes.<br><br>
+            2.	Responsive Design: Bootstrap is designed with a “mobile-first” philosophy, meaning that designs are optimized for smaller screens first and then scaled up for larger screens. This ensures that websites built with Bootstrap look great on all devices, from smartphones to desktops.<br><br>
+            3.	Pre-designed Components: Bootstrap includes a wide range of pre-designed UI components such as buttons, forms, alerts, cards, carousels, and navigation bars. These components are styled using Bootstrap’s CSS classes and can be easily customized to fit the design needs of your project.<br><br>
+            4.	JavaScript Plugins: Bootstrap comes with a set of JavaScript plugins that add interactivity to your web pages. These plugins include modals, tooltips, popovers, collapsible elements, and more. They are built using jQuery, making it easy to integrate dynamic features into your website.<br><br>
+            5.	Customization: While Bootstrap provides a consistent design out of the box, it also offers extensive customization options. You can override Bootstrap’s default styles by adding your own CSS or by using the built-in customization tools to adjust the framework’s variables and settings.<br><br>
+            6.	Browser Compatibility: Bootstrap is tested and compatible with all modern browsers, ensuring that your website works well across different platforms. It also includes fallbacks for older browsers, making it a robust solution for cross-browser development.<br><br>
+            7.	Community and Ecosystem: Bootstrap has a large and active community of developers who contribute to its ongoing development and support. There are numerous third-party themes, templates, and extensions available, which can help you quickly build and deploy your projects.<br><br>
+            8.	Documentation: One of Bootstrap’s strengths is its comprehensive and well-organized documentation. The official documentation provides detailed examples, code snippets, and explanations of how to use each component, making it easy for developers of all skill levels to get started.<br><br>
+        </p>
+        <div class="btn-group">
+            <button type="button" class="btn btn-outline-primary">Previous</button>
+            <button type="button" class="btn btn-outline-primary">Next</button>
+        </div>
+        <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" class="btn btn-primary">Click here</a>
+        <br><br>
+        <div class="row">
+          <div class="col-7 mb-3 mb-sm-0">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Damanpreet Singh</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">Developer</h6>
+                <p class="card-text">This webpage is developed using Bootstrap framework.</p>
+                <a href="https://github.com/damanpreet2005" class="btn btn-primary">Know more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-5">
+            <div class="card text-center" id="pay">
+          <div class="card-header">
+            Featured
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">$16/month</h5>
+            <p class="card-text">Get access to all our services</p>
+            <a href="#" class="btn btn-primary">Pay</a>
+          </div>
+          <div class="card-footer text-body-secondary">
+            2 days ago
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+      </div>
+      <div class="container-fluid" id="footer">
+        <div class="p-3 text-light bg-secondary border border-secondary rounded-3" id="footc">
+          <div class="row">
+            <div class="col m-3">
+              <p><b id="About">About Us</b><br>At Front -end, we are dedicated to provide you knowledge daily. Our goal is to give you all the Front-end information while delivering exceptional services to our community.
+              <br>
+              <ul >
+              <li><a href="#head1" class="Footl">Home</a></li>
+              <li><a href="#About" class="Footl">About us</a></li>
+              <li><a href="" class="Footl">Services</a></li>
+              <li><a href="" class="Footl">Contact us</a></li>
+              <li><a href="" class="Footl">Blog</a></li>
+              </ul>
+              </p>
+            </div>
+            <div class="col">Drop a feedback below about your experience<br>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Feedback:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea><br>
+                <a href="" class="btn btn-primary">Submit</a>
+                <div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                  <label class="form-check-label" for="flexSwitchCheckDefault">Want more updates?</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>

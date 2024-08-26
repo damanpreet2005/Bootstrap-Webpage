@@ -1,0 +1,155 @@
+.btn_one i{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    position: relative;
+    left: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index:1000;
+}
+.sidebar_menu{
+    position: fixed;
+    left:-300px;
+    margin-top: 50px;
+    height: 100vh;
+    width:300px;
+    background-color: #0d6efd;
+    box-shadow: 0 0 6px rgba(254, 242, 242, 0.5);
+    transition: 0.4s;
+    z-index: 2000;
+}
+.sidebar_menu .logo{
+    position: absolute;
+    width:100%;
+    line-height: 60px;
+    box-shadow: 0 0 6px rgba(255, 255, 255,0.5);
+    
+}
+.sidebar_menu .logo a
+{
+    position: absolute;
+    left: 60px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+}
+.sidebar_menu .btn_two i{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    position: absolute;
+    left: 275px;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.sidebar_menu .menu{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+}
+.sidebar_menu .menu li{
+    padding: 10px;
+    margin-top: 6px;
+    margin-left: -30px;
+}
+#o{
+    box-shadow: 0 0 4px rgba(255, 255, 255,0.5);
+}
+.sidebar_menu .menu i,a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.sidebar_menu .menu i{
+    padding-right: 8px;
+}
+.sidebar_menu .social_media{
+    position: absolute;
+    left:25%;
+    bottom:50px;
+    padding: 0 5px;
+
+}
+.sidebar_menu .social_media i{
+    opacity: 0.5;
+    color: white;
+    transition: 0.4s;
+}
+#check{
+    display: none;
+}
+.sidebar_menu .menu li:hover{
+    box-shadow: 0 0 4px rgba(255, 255, 255,0.5);
+}
+
+.sidebar_menu .social_media i:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+#check:checked ~ .sidebar_menu{
+    left:0;
+}
+#check:checked .btn_one{
+    display: none;
+}
+.p-3 text-light-text-emphasis{
+    width: 60px;
+}
+#head{
+    color:white;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.container-lg{
+    margin-top: 10px;
+}
+h1,
+h5{
+    display: inline-block;
+}
+.text-bg-secondary{
+    margin-left: 5px;
+    justify-content: center;
+}
+.p-3 text-light{
+    display: grid inline-block;
+    width: 100%;
+    height:80px;
+    z-index: 1000;
+    margin-top: 500px;
+}
+.btn-primary{
+    float: right;
+}
+.mainbody{
+    margin: 5% 15% 5% 15%;
+}
+.p-3 text-primary-emphasis{
+    padding-top: 60px;
+}
+li{
+    list-style: none;
+}
+#footer{
+    height: 300px;
+}
+#footc{
+    display: flex;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+#Profile{
+    text-decoration: none;
+    font-size: medium;
+}
+.Footl{
+    text-decoration: none;
+    font-size: 15px;
+}
+#pay{
+    align-self: flex-end;
+}
